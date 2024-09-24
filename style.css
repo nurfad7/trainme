@@ -7,14 +7,13 @@ font-family: 'Open Sans', sans-serif; */
 
 body {
   background: linear-gradient(180deg, rgba(227, 255, 248, 0) 82.08%, rgba(227, 255, 248, 0.38) 100%);
-
   min-height: 100vh;
 }
 
 .page {
   width: 1040px;
   margin: 0px auto;
-  padding-top: 64px;
+  padding-top: 40px;
 }
 
 /* Check margin */
@@ -28,18 +27,20 @@ nav {
 
 /* Check list styling */
 nav ul {
+  list-style-type: none;
   display: flex;
   gap: 48px;
 }
 
 /* Check list link style */
 nav ul li a {
-
+  text-decoration: none;
+  color: #1F1534;
 }
 
 /* Make text bold on hover */
 nav ul li a:hover {
-  
+  font-weight: bold;
 }
 
 
@@ -47,37 +48,56 @@ main {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 88px;
+  margin-bottom: 40px;
 }
 
 /* Check margin and font styling */
 .text h1 {
   font-family: 'Mulish', sans-serif;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 72px;
 }
 
 /* Check font styling */
 .text h1 span {
+  color: #89C5CC;
+  font-weight: 700;
 }
 
 /* Check font styling */
 .text p {
-  font-family: 'Open Sans', sans-serif; 
+  font-family: 'Open Sans', sans-serif;
+  color: #7D7987;
+  size: 16px;
+  line-height: 25.6px;
+  margin-top: 10px;
+  margin-bottom: 30px;
 }
 
 /* Check font styling and make sure the button is rounded */
 .text button {
+  background: #69B99D;
+  color: #F9F9F9;
   font-family: 'Open Sans', sans-serif;
+  border: none;
+  border-radius: 4px;
   display: flex;
   gap: 8px;
+  padding: 14px 32px 15px 32px;
+  font-size: 16px;
 }
+
 
 /* Handle when user hover on the button */
 .text button:hover {
+  background: #4A9A7E;
 }
 
 /* Check the text styling */
 footer {
   font-family: 'Open Sans', sans-serif; 
+  text-align: center;
 }
 
 /* Check the text styling */
